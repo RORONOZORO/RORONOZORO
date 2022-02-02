@@ -1,0 +1,87 @@
+
+		header h1{
+			font-size:2em ;
+			font-style: algerian;
+			text-indent: 20px;
+		}
+		header h1:first-letter{
+			font-size: 2.2em;
+		}
+
+		nav{
+			background-color: black;
+			width: 100%;
+			border-radius:10px ;
+			
+			
+		}
+		nav ul{
+			list-style-type: none;
+			display: flex;
+		}
+		nav ul li{
+			color: white ;
+			margin: 20px auto;
+
+		}
+		nav ul li a{
+			text-decoration:none ;
+			color: white;
+		}
+		main{
+			display: flex;
+			flex-direction: row;
+		}
+		article{
+			width: 20%;
+			height:400px ;
+			margin: 10px auto;
+			padding: auto;
+			flex-direction: column;
+			text-align: center;
+			border-radius: 20px;
+		}
+		form table input{
+			margin: 90%;
+			margin: 10px auto;
+			height: 40px;
+		}
+		main form{
+			width:18%;
+			position: relative;
+			height:400px;
+			border:1px solid;
+			border-radius: 10px;
+			margin:10px;
+			padding:5px;
+		}
+		main article button{
+			width: 50%;
+			padding: 15px;
+			border-radius: 10px;
+			margin: 10px;
+			background-color: cyan;
+		}
+		main article button a{
+			text-decoration: none;
+		}
+		form table tr li {
+			list-style-type: none;
+		}
+		main article:hover{
+			border:1px rgb(110,117,180) solid;
+			border-radius: 5px;
+			background: rgb(212,215,238);
+			cursor: hand;
+		}
+		main article button a:hover{
+			color: red;
+			background: yellow;
+		}
+		#con{
+			padding: 10px;
+			color: white;
+			background: black;
+			width: 100%;
+			border-radius: 10px;
+		}
